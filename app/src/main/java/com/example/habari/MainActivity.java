@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TabLayout TabLayout;
     private ViewPager viewPager;
-    private MyPageAdapter adapter = new MyPageAdapter(getSupportFragmentManager());
+    private MyPageAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

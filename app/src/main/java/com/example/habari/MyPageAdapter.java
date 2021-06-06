@@ -19,10 +19,6 @@ public class MyPageAdapter extends FragmentStatePagerAdapter {
 
     }
 
-    public MyPageAdapter(androidx.fragment.app.FragmentManager fragmentManager) {
-        super(fragmentManager);
-    }
-
 
     @Override
     public Fragment getItem(int i) {
