@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
-
     private TabLayout TabLayout;
     private ViewPager viewPager;
     private MyPageAdapter adapter;
